@@ -1,0 +1,140 @@
+header, main, footer {
+  width: 960px;
+  margin: 0 auto;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+/* Heading Logo */
+div.logo {
+  float: left;
+}
+div.brand h2 {
+  float: left;
+  font-family: 'Yesteryear', cursive;
+  font-size: 24px;
+}
+div.brand p {
+  clear: left;
+  font-size: 12px;
+}
+
+/* Heading Styles */
+div.social div.groupleft {
+  text-align: right;
+  /* absolute: left; */
+  /* float: right; */
+}
+div.social div.groupright {
+  float: right;
+  margin-left: 15px;
+  /* relative: right; */
+}
+
+/* Title */
+div.line {
+  /* background: #DDD; */
+  height: 10px;
+  background: repeating-linear-gradient(
+    45deg,
+    #ddd,
+    #fff 3px
+  );
+}
+div.title div.heading h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+div.title div.heading sub {
+  font-size: 12px;
+  color: #bbb;
+}
+div.title div.heading p.sub {
+  float: left;
+}
+div.title div.heading img {
+  /* align-content: right; */
+  float: right;
+}
+div.title div.heading p.action {
+  float: right;
+}
+div.title div.hero img {
+  width: 960px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+/* Content Styles */
+div.content p {
+  text-indent: 30px;
+  margin-bottom: 25px;
+}
+
+/* Recipe Box Styles */
+div.recipe {
+  background-image: url("../img/list-bg.png");
+  width: 960px;
+  height: 310px;
+  margin-bottom: 25px;
+}
+div.recipe ul.left {
+  float: left;
+  margin-left: 150px;
+  margin-top: 60px;
+  /* margin: auto 50px; */
+}
+div.recipe ul.right {
+  float: left;
+  margin-left: 200px;
+  margin-top: 60px;
+}
+div.recipe ul li {
+  margin-bottom: 10px;
+}
+/* FORMATTING TO FIX */
+input[type="checkbox"]:checked + div.recipe ul li {
+  text-decoration: line-through;
+}
+
+/* Social Styles */
+div.credit {
+  margin-top: 25px;
+}
+div.credit div.photo img {
+  float: left;
+  border-radius: 50%;
+}
+div.author {
+  width: 600px;
+}
+div.credit div.author h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 85px;
+}
+div.credit div.author p {
+  margin-left: 85px;
+}
+div.credit div.button button {
+  float: right;
+  border: none;
+  background-color: #b36e57;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 10px 20px;
+}
+
+/* Footer Styles */
+footer {
+  margin-top: 100px;
+  border-top: 2px solid #ddd;
+  outline: 4px dashed green;
+}
+div.signature img {
+  padding: 5px 5px;
+  outline: 4px dashed green;
+}
+footer p {
+  text-align: center;
+}

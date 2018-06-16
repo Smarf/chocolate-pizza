@@ -5,28 +5,50 @@ header, main, footer {
 }
 
 /* Heading Logo */
+
+div.logobrand {
+  width: 300px;
+  float: left;
+}
+
 div.logo {
   float: left;
 }
 div.brand h2 {
-  float: left;
+  /* float: left; */
   font-family: 'Yesteryear', cursive;
   font-size: 24px;
 }
 div.brand p {
+  display: inline-block;
   clear: left;
   font-size: 12px;
 }
 
-/* Heading Styles */
-div.social div.groupleft {
-  text-align: right;
-  /* absolute: left; */
-  /* float: right; */
-}
-div.social div.groupright {
+div.social {
   float: right;
-  margin-left: 15px;
+}
+
+/* Heading Styles */
+
+.groupleft li {
+display: inline-block;
+}
+
+.groupright li {
+  display: inline-block;
+}
+
+ul.groupleft {
+  display: inline;
+  /* text-align: right; */
+  /* float: right; */
+  /* absolute: left; */
+}
+ul.groupright {
+  display: inline;
+  /* float: right; */
+  /* margin-left: 15px; */
   /* relative: right; */
 }
 
@@ -129,12 +151,15 @@ div.credit div.button button {
 footer {
   margin-top: 100px;
   border-top: 2px solid #ddd;
-  outline: 4px dashed green;
 }
 div.signature img {
+  display: block;
+  /* float: left; */
   padding: 5px 5px;
-  outline: 4px dashed green;
+  text-align: center;
 }
 footer p {
+  margin-top: 35px;
+  margin-bottom: 35px;
   text-align: center;
 }

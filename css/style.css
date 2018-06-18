@@ -32,21 +32,23 @@ div.social {
 /* Heading Styles */
 
 .groupleft li {
-display: inline-block;
+display: inline;
 }
 
 .groupright li {
-  display: inline-block;
+  display: inline;
 }
 
 ul.groupleft {
   display: inline;
+  margin-left: 2px;
   /* text-align: right; */
   /* float: right; */
   /* absolute: left; */
 }
 ul.groupright {
   display: inline;
+  margin-right: 2px;
   /* float: right; */
   /* margin-left: 15px; */
   /* relative: right; */
@@ -60,6 +62,7 @@ div.line {
     45deg,
     #ddd,
     #fff 3px
+    clear: both;
   );
 }
 div.title div.heading h1 {
